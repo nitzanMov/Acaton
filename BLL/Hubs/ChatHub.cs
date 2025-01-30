@@ -29,7 +29,7 @@ namespace BLL.Hubs
             Console.WriteLine($"Client disconnected: {Context.ConnectionId}");
             return base.OnDisconnectedAsync(exception);
         }
-        public async Task Message(string jsonMessage,object str)
+        public async Task Message(string jsonMessage)
         {
             try
             {
