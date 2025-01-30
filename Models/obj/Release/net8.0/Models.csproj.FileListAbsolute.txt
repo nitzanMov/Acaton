@@ -1,0 +1,12 @@
+C:\source\Work_Projects\Acaton_Move\Acaton\Models\bin\Release\net8.0\Models.deps.json
+C:\source\Work_Projects\Acaton_Move\Acaton\Models\bin\Release\net8.0\Models.dll
+C:\source\Work_Projects\Acaton_Move\Acaton\Models\bin\Release\net8.0\Models.pdb
+C:\source\Work_Projects\Acaton_Move\Acaton\Models\obj\Release\net8.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\Work_Projects\Acaton_Move\Acaton\Models\obj\Release\net8.0\Models.AssemblyInfoInputs.cache
+C:\source\Work_Projects\Acaton_Move\Acaton\Models\obj\Release\net8.0\Models.AssemblyInfo.cs
+C:\source\Work_Projects\Acaton_Move\Acaton\Models\obj\Release\net8.0\Models.csproj.CoreCompileInputs.cache
+C:\source\Work_Projects\Acaton_Move\Acaton\Models\obj\Release\net8.0\Models.sourcelink.json
+C:\source\Work_Projects\Acaton_Move\Acaton\Models\obj\Release\net8.0\Models.dll
+C:\source\Work_Projects\Acaton_Move\Acaton\Models\obj\Release\net8.0\refint\Models.dll
+C:\source\Work_Projects\Acaton_Move\Acaton\Models\obj\Release\net8.0\Models.pdb
+C:\source\Work_Projects\Acaton_Move\Acaton\Models\obj\Release\net8.0\ref\Models.dll
