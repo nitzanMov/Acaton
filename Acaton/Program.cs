@@ -15,7 +15,7 @@ builder.Services.AddCors(options =>
         policy.AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials()
-              .SetIsOriginAllowed(origin => true); // Adjust to allow your Flutter app's domain.
+              .SetIsOriginAllowed(origin => true);
     });
 });
 
@@ -30,7 +30,7 @@ builder.Services.AddSingleton<IFizikalHandler, FizikalHandler>();
 builder.Services.AddSingleton<IOpenAIService, OpenAIService>(sp =>
 {
     var configuration = sp.GetRequiredService<IConfiguration>();
-    var apiKey = configuration["OpenAI:ApiKey"];
+    var apiKey = "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";
     var fizikalHandler = sp.GetRequiredService<IFizikalHandler>();
     return new OpenAIService(apiKey, fizikalHandler);
 });
@@ -50,7 +50,6 @@ app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllers();
     endpoints.MapHub<ChatHub>("/chatHub");
-    //HubEndpointConventionBuilder hubEndpointConventionBuilder = endpoints.MapHub<ChatHub>("/chatHub");
 });
 
 // Configure the HTTP request pipeline.

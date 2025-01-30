@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\source\\Work_Projects\\Acaton_Move\\Acaton\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F06AE9A3-0089-4503-904E-AFE120F0216F}|BLL\\BLL.csproj|c:\\source\\work_projects\\acaton_move\\acaton\\bll\\services\\openaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F06AE9A3-0089-4503-904E-AFE120F0216F}|BLL\\BLL.csproj|solutionrelative:bll\\services\\openaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C09823FE-CAC2-48FB-B38B-306A75B5408F}|Acaton\\AcatonApi.csproj|c:\\source\\work_projects\\acaton_move\\acaton\\acaton\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C09823FE-CAC2-48FB-B38B-306A75B5408F}|Acaton\\AcatonApi.csproj|solutionrelative:acaton\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C09823FE-CAC2-48FB-B38B-306A75B5408F}|Acaton\\AcatonApi.csproj|c:\\source\\work_projects\\acaton_move\\acaton\\acaton\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C09823FE-CAC2-48FB-B38B-306A75B5408F}|Acaton\\AcatonApi.csproj|solutionrelative:acaton\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F06AE9A3-0089-4503-904E-AFE120F0216F}|BLL\\BLL.csproj|c:\\source\\work_projects\\acaton_move\\acaton\\bll\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F06AE9A3-0089-4503-904E-AFE120F0216F}|BLL\\BLL.csproj|solutionrelative:bll\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C09823FE-CAC2-48FB-B38B-306A75B5408F}|Acaton\\AcatonApi.csproj|c:\\source\\work_projects\\acaton_move\\acaton\\acaton\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C09823FE-CAC2-48FB-B38B-306A75B5408F}|Acaton\\AcatonApi.csproj|solutionrelative:acaton\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F06AE9A3-0089-4503-904E-AFE120F0216F}|BLL\\BLL.csproj|c:\\source\\work_projects\\acaton_move\\acaton\\bll\\services\\openaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F06AE9A3-0089-4503-904E-AFE120F0216F}|BLL\\BLL.csproj|solutionrelative:bll\\services\\openaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,12 +31,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\source\\Work_Projects\\Acaton_Move\\Acaton\\Acaton\\Program.cs",
+              "RelativeDocumentMoniker": "Acaton\\Program.cs",
+              "ToolTip": "C:\\source\\Work_Projects\\Acaton_Move\\Acaton\\Acaton\\Program.cs",
+              "RelativeToolTip": "Acaton\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T14:07:31.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "OpenAIService.cs",
               "DocumentMoniker": "C:\\source\\Work_Projects\\Acaton_Move\\Acaton\\BLL\\Services\\OpenAIService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\OpenAIService.cs",
               "ToolTip": "C:\\source\\Work_Projects\\Acaton_Move\\Acaton\\BLL\\Services\\OpenAIService.cs",
               "RelativeToolTip": "BLL\\Services\\OpenAIService.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAuwEcAAAAsAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAqwEcAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T13:31:46.666Z",
               "EditorCaption": ""
@@ -79,26 +96,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\source\\Work_Projects\\Acaton_Move\\Acaton\\Acaton\\appsettings.json",
               "RelativeDocumentMoniker": "Acaton\\appsettings.json",
               "ToolTip": "C:\\source\\Work_Projects\\Acaton_Move\\Acaton\\Acaton\\appsettings.json",
               "RelativeToolTip": "Acaton\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-01-30T13:30:25.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "C:\\source\\Work_Projects\\Acaton_Move\\Acaton\\BLL\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "BLL\\Hubs\\ChatHub.cs",
               "ToolTip": "C:\\source\\Work_Projects\\Acaton_Move\\Acaton\\BLL\\Hubs\\ChatHub.cs",
               "RelativeToolTip": "BLL\\Hubs\\ChatHub.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAkwDgAAAAJAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwDgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-30T13:25:56.293Z",
               "EditorCaption": ""
