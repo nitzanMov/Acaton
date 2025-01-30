@@ -30,7 +30,7 @@ builder.Services.AddSingleton<IFizikalHandler, FizikalHandler>();
 builder.Services.AddSingleton<IOpenAIService, OpenAIService>(sp =>
 {
     var configuration = sp.GetRequiredService<IConfiguration>();
-    var apiKey = "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";
+    var apiKey = configuration["OpenAI:ApiKey"];
     var fizikalHandler = sp.GetRequiredService<IFizikalHandler>();
     return new OpenAIService(apiKey, fizikalHandler);
 });
