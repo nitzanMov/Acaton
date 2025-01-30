@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AcatonApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56cdf901778266c6c3e50c57eec8d0391b0a2c04")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aacc21e1fd357ab341a8acec2ef342a37907d4a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("AcatonApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AcatonApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
