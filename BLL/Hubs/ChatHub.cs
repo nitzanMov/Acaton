@@ -53,11 +53,10 @@ namespace BLL.Hubs
             await Groups.AddToGroupAsync(Context.ConnectionId, roomName);
             await Clients.Group(roomName).SendAsync("ReceiveMessage", $"📢 משתמש הצטרף לחדר {roomName}!");
         }
-        public async Task SendMessageToRoom(string roomName, string message)
+        public async Task SendMessageToRoom(string message)
         {
-            await Clients.Group(roomName).SendAsync("ReceiveMessage", message);
-            var chatMessage = _openAIService.GetCompletionAsync(message);
-            await Clients.Group(roomName).SendAsync("ReceiveMessage", chatMessage);
+            var chatMessage = await _openAIService.GetCompletionAsync(message);
+            await Clients.Group("2").SendAsync("SendMessageToRoom", chatMessage);
         }
     }
 }

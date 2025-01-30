@@ -62,10 +62,11 @@ namespace BLL.Services
         public async Task SetChat()
         {
             string promptBegin = "אתה מדריך חדר כושר ורופא , אתה יודע להמליץ איזה פעולות מתאימות לכל בן אדם.\r\nאני הולך להביא לך את המידע הבא שאתה חייב להשתמש בו כדי לענות למי שהולך לשלוח לך את ההודעות הבאות.\r\n";
+            string addId = "וגם אם מבקשים ממך את השם של הכיתה , תשלח אותה עם הid ";
             var fizikalclass = await _fizikalHandler.GetClassScheduleAsync();
             var fizikalSchedual = await _fizikalHandler.GetClassCategories();
 
-            var prompt = promptBegin + "\n" + fizikalclass.ToString() + "\n" + fizikalSchedual.ToString();
+            var prompt = promptBegin + "\n" + addId + "\n" + fizikalclass.ToString() + "\n" + fizikalSchedual.ToString();
             ChatCompletion completion = await _client.CompleteChatAsync(prompt);
             _chatHistory.Clear();
             _chatHistory.Add(ChatMessage.CreateSystemMessage(prompt));
