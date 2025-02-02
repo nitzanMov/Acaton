@@ -19,7 +19,7 @@ namespace BLL.ExternalSystems.Fizikal
 
         public async Task<string> GetClassScheduleAsync()
         {
-            string requestUrl = $"{_url}/schedule/guestView?OrganizationId=1&CompanyId=2&BranchId=7&FromDate=2025-01-29&ToDate=2025-02-04&&AppTypeId=0";
+            string requestUrl = $"{_url}/schedule/guestView?OrganizationId=1&CompanyId=2&BranchId=7&FromDate=2025-02-02&ToDate=2025-02-07&&AppTypeId=0";
 
             using var request = new HttpRequestMessage(HttpMethod.Get, requestUrl);
             request.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("text/plain"));
